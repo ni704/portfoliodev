@@ -1,0 +1,56 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 420) rotate(90) scale(530 760)">
+      <stop offset="0" stop-color="#FFB14F"/>
+      <stop offset="0.25" stop-color="#FF7A2D"/>
+      <stop offset="0.7" stop-color="#EF4A14"/>
+      <stop offset="1" stop-color="#C52E06"/>
+    </radialGradient>
+    <linearGradient id="lensGrad" x1="470" y1="180" x2="930" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#21252A"/>
+      <stop offset="0.35" stop-color="#0A0D12"/>
+      <stop offset="1" stop-color="#1B1F25"/>
+    </linearGradient>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="tightBlur" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bgGlow)"/>
+
+  <g opacity="0.65" filter="url(#softBlur)">
+    <ellipse cx="330" cy="755" rx="320" ry="86" fill="#E9641A"/>
+    <ellipse cx="830" cy="680" rx="270" ry="80" fill="#F28938"/>
+    <ellipse cx="1180" cy="710" rx="140" ry="90" fill="#F9B15A"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M220 130C340 50 500 120 560 170C650 250 700 420 820 470C900 505 1060 470 1140 530L1180 700C980 760 860 790 700 760C650 750 590 720 530 700C430 660 326 622 206 648C67 680 -36 740 -80 650L-75 520C-30 430 90 220 220 130Z" fill="#F35A00" opacity="0.45"/>
+  </g>
+
+  <g transform="translate(330 180)">
+    <path d="M85 160C130 120 175 92 215 70C275 40 360 80 400 156C430 212 427 298 389 352C353 403 291 436 228 436C143 436 74 374 69 310C65 246 61 208 85 160Z" fill="#F6A535" opacity="0.55" filter="url(#tightBlur)"/>
+  </g>
+
+  <g transform="translate(335 160)">
+    <ellipse cx="350" cy="280" rx="180" ry="145" fill="url(#lensGrad)"/>
+    <ellipse cx="350" cy="280" rx="140" ry="110" fill="#0C0F13"/>
+    <circle cx="350" cy="280" r="96" fill="#232830"/>
+    <circle cx="350" cy="280" r="62" fill="#14181E"/>
+    <circle cx="350" cy="280" r="28" fill="#2F3740"/>
+    <circle cx="350" cy="280" r="8" fill="#B7C0CB" opacity="0.8"/>
+
+    <path d="M430 210L515 235L520 326L440 360L410 305L430 210Z" fill="url(#lensGrad)"/>
+    <path d="M275 405L430 450L500 430L508 510L310 560L250 485L275 405Z" fill="#181C22"/>
+    <path d="M230 190L310 135L365 145L350 238L290 250L230 190Z" fill="#0D1017"/>
+    <path d="M250 140L312 100L385 112L370 170L298 178L250 140Z" fill="#1A2026"/>
+    <path d="M309 90L358 66L415 84L390 118L344 120L309 90Z" fill="#0E131A"/>
+  </g>
+
+  <g opacity="0.4" filter="url(#softBlur)">
+    <path d="M86 545C120 495 166 470 215 482C255 492 277 512 292 530C317 560 322 612 269 638C214 665 120 664 80 622C53 594 62 575 86 545Z" fill="#F2B860"/>
+  </g>
+</svg>
